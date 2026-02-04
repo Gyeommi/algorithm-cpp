@@ -10,7 +10,7 @@ int main()
 	cin >> s;
 	cin >> i;
 
-	cout << s.substr(i - 1, 1);
+	cout << s[i - 1];
 
 	return 0;
 }
